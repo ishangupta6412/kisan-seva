@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
     <title>KISAN-SEVA</title>
 </head>
 <body>
-    <header class="text-gray-700 body-font">
+    <header class="text-gray-700 body-font navigation">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <!-- <svg xmlns="C:\Users\ishan\3D Objects\KISAN.png" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
-            <img src="./Screenshot (30).png" width="100">
-            <span class="ml-3 text-xl">KISAN-SEVA</span>
+
+  <img src="leaf.png" width="7.5%">
+  <span class="ml-3 text-xl ki">KISAN-SEVA</span>
+
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a class="mr-5 hover:text-gray-900">Home</a>
@@ -29,19 +36,20 @@
           </button>
         </div>
       </header>
-      <section class="text-gray-700 body-font">
+      <section class="text-gray-700 body-font" id="body">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome!!! to
-              <br class="hidden lg:inline-block">KISAN-SEVA
-            </h1>
+            <p>
+              <h2 class="welcom-txt-sub "rellax" data-rellax-speed="7"">welcome   to</h2>
+              <h1 class="welcom-txt-main "rellax" data-rellax-speed="7"">KISAN SEVA</h1>
+            </p>
             <p class="mb-8 leading-relaxed"></p>
-            <div class="flex justify-center">
-              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Login</button>
-              <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Forgot Password</button>
+            <div class="flex justify-center buttons">
+              <button class="btn inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none">Login</button>
+              <button class="btn ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none">Forgot Password</button>
             </div>
           </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 img-box">
             <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?indianfarming,indianfarmers,farming">
           </div>
         </div>
@@ -52,7 +60,7 @@
             <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
-            <img src="./Screenshot (30).png" width="100">
+            <img src="leaf.png" width="10%">
             <span class="ml-3 text-xl">KISAN-SEVA</span>
           </a>
           <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">@Code!T
@@ -84,6 +92,18 @@
           </span>
         </div>
       </footer>
-    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous"></script>
+      <script>
+  // Also can pass in optional settings block
+  var rellax = new Rellax('.rellax', {
+    speed: -2,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+</script>
+
 </body>
 </html>
