@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #e2b932;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+}
