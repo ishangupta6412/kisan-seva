@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+
+body{
+  margin: 0 auto;
+}
+
+.navbar{
+  background-color: #e2b932;
+}
+
+.nav-link{
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+  transition: 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.fluid-container {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.217),
+      rgba(0, 0, 0, 0.843)
+    ),
+    url("../Images/dan-meyers-IQVFVH0ajag-unsplash.jpg");
+    height: 1200px;
+    background-position: center;
+}
+
+
+
+
+
+/* NAV BAR */
+
+/* nav barr end */
+
+
+.quote1 h1 {
+  text-align: center;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 130px;
+}
+
+/* effect-shine */
+.effect-shine {
+  transition: 1.5s ease-in-out;
+}
+.effect-shine:hover {
+  transition: 1.5s ease-in-out;
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgba(3, 164, 121, 0.6) 30%,
+    rgb(6, 155, 128) 50%,
+    rgba(6, 187, 160, 0.6) 70%
+  );
+  -webkit-mask-size: 200%;
+  animation: shine 1.5s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+
+.quote1 p {
+  padding-top: 200px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  opacity: 1;
+  font-family: "Comfortaa", cursive;
+  font-weight: 550;
+}
+
+.quote1 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e2b932;
+  font-family: "Comfortaa", cursive;
+  font-weight: bolder;
+  font-size: 90px !important;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.flex-container1{
+  background-image:linear-gradient(to right, rgb(31, 137, 91), rgba(3, 2, 56, 1));
+}
+
+.quote_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  font-family: "Comfortaa",
+  cursive;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+
+
+.paragraph--type--card-row {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.card{
+  width: 400px;
+  transition: 0.2s ease-in-out;
+
+border-radius: 5%;
+}
+
+.card:nth-child(2) {
+  margin: 0px 40px 0px 40px;
+}
+
+.card:hover{
+  transition: 0.2s ease-in-out;
+  transform: translateY(20px);
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  margin: 0;
+}
+
+.card h3 {
+  margin: 0;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Comfortaa", cursive;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.card-image img{
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s ease-in-out;
+  border-radius: 3%;
+}
+
+.card img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+  transition: 0.6s;
+}
+
+.paragraph{
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Comfortaa",cursive;
+  margin-bottom: 0;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.card .card-content {
+  border-top: none;
+  padding-bottom: 20px;
+}
+
+footer{
+  background-color: #e2b932;
+}
