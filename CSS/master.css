@@ -1,21 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
-
-body{
+body {
   margin: 0 auto;
 }
 
-.navbar{
+.navbar {
   background-color: #e2b932;
 }
 
-.nav-link{
+.nav-link {
   font-weight: 500;
   transition: 0.3s ease-in-out;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   transition: 0.3s ease-in-out;
   color: rgb(255, 255, 255);
 }
@@ -27,18 +26,13 @@ body{
       rgba(0, 0, 0, 0.843)
     ),
     url("../Images/dan-meyers-IQVFVH0ajag-unsplash.jpg");
-    height: 1200px;
-    background-position: center;
+  height: 1200px;
+  background-position: center;
 }
-
-
-
-
 
 /* NAV BAR */
 
 /* nav barr end */
-
 
 .quote1 h1 {
   text-align: center;
@@ -73,8 +67,6 @@ body{
   }
 }
 
-
-
 .quote1 p {
   padding-top: 200px;
   text-align: center;
@@ -95,26 +87,26 @@ body{
   font-size: 90px !important;
 }
 
-
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-.flex-container1{
-  background-image:linear-gradient(to right, rgb(31, 137, 91), rgba(3, 2, 56, 1));
+.flex-container1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(31, 137, 91),
+    rgba(3, 2, 56, 1)
+  );
 }
 
-.quote_1{
+.quote_1 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2.2rem;
   font-weight: bolder;
-  font-family: "Comfortaa",
-  cursive;
+  font-family: "Comfortaa", cursive;
   padding-top: 30px;
   padding-bottom: 30px;
   color: white;
 }
-
-
 
 .paragraph--type--card-row {
   display: flex;
@@ -122,7 +114,153 @@ body{
   flex-flow: row wrap;
 }
 
-.card{
+:root {
+  --main: ##1e1f26;
+  --accent: #b3b3b3;
+  --white: #fff;
+  --signal: #e2b932;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.card1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.142),
+      rgba(0, 0, 0, 0.585)
+    ),
+    url("../Images/lumensoft-technologies-WaGMKmJ2F0Y-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 400px;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: ease-in-out 0.3s;
+  box-shadow: 5px 8px 12px 2px rgba(35, 35, 35, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transform: scale(0.7);
+}
+
+.card-content {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 10%,
+    rgba(0, 0, 0, 0.4) 20%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: 1em 2em;
+  color: var(--white);
+  transform: translateY(24em);
+  transition: ease-in-out 0.5s;
+  height: 100%;
+}
+
+.card-titel {
+  position: relative;
+  color: var(--white);
+}
+.card1:hover {
+  transform: scale(1.02);
+}
+.card1:hover .card-titel::after {
+  transform: translateX(-10%);
+}
+.card1:hover .card-content {
+  transform: translateY(0);
+}
+.card-titel::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: var(--signal);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-90%);
+  transition: ease-in-out 0.5s;
+  transition-delay: 0.5s;
+}
+.card-button {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: var(--signal);
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card-button:hover,
+.card-button:focus {
+  background-color: var(--accent);
+}
+
+.card2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.142),
+      rgba(0, 0, 0, 0.585)
+    ),
+    url("../Images/bonnie-kittle--f7bKsvOgwU-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 400px;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: ease-in-out 0.3s;
+  box-shadow: 5px 8px 12px 2px rgba(35, 35, 35, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transform: scale(0.7);
+}
+
+.card2:hover {
+  transform: scale(1.02);
+}
+.card2:hover .card-titel::after {
+  transform: translateX(-10%);
+}
+.card2:hover .card-content {
+  transform: translateY(0);
+}
+
+.card3 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.142),
+      rgba(0, 0, 0, 0.585)
+    ),
+    url("../Images/pexels-jannis-knorr-2933243.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px 0 0 0;
+  max-width: 400px;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: ease-in-out 0.3s;
+  box-shadow: 5px 8px 12px 2px rgba(35, 35, 35, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transform: scale(0.7);
+}
+
+.card3:hover {
+  transform: scale(1.02);
+}
+.card3:hover .card-titel::after {
+  transform: translateX(-10%);
+}
+.card3:hover .card-content {
+  transform: translateY(0);
+}
+/* .card{
   width: 400px;
   transition: 0.2s ease-in-out;
 
@@ -189,8 +327,8 @@ border-radius: 5%;
 .card .card-content {
   border-top: none;
   padding-bottom: 20px;
-}
+} */
 
-footer{
+footer {
   background-color: #e2b932;
 }
