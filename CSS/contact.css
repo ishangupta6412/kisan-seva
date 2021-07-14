@@ -11,3 +11,9 @@
     transition: 0.3s ease-in-out;
     color: rgb(255, 255, 255);
 }
+.whitebg{
+    color: aliceblue;
+}
+.gradbg{
+  background-image: linear-gradient(to right, rgb(31, 137, 91), rgba(3, 2, 56, 1));
+}
